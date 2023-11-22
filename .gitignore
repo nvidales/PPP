@@ -1,0 +1,23 @@
+# Ignore C++ executables
+*.out
+*.exe
+
+# Ignore object files
+*.o
+
+# Ignore bin and obj directories
+bin/
+obj/
+
+# Ignore makefiles
+Makefile
+makefile
+
+# Ignore everything in makefiles directory
+makefiles/*
+
+# Ignore all .h files
+*.h
+
+# Exception: Do not ignore .h files in the "headers" directory at the root
+!/headers/*.h
